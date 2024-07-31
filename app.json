@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Tolist",
-    "slug": "Tolist",
+    "slug": "todo-list-avdanced",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,6 +22,18 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7110ce56-8b5d-40fe-9153-ce6c06188154"
+      }
+    },
+    "owner": "satyammm",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/7110ce56-8b5d-40fe-9153-ce6c06188154"
     }
   }
 }
