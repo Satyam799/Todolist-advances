@@ -16,6 +16,7 @@ function Footer() {
     <View style={styles.container}>
       <TouchableOpacity onPress={() => dispatch(Activity("Alls"))}>
         <Text style={Actives === "Alls" ? { color: "blue" } : ""}>All ({Alls?.length})</Text>
+        <View></View>
       </TouchableOpacity>
       <TouchableOpacity
         onPress={() => {
