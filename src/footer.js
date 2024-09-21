@@ -1,4 +1,4 @@
-import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { Button, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
 import { Activity, inprogress } from "../Store/Cartslice";
 import { useEffect } from "react";
@@ -16,7 +16,9 @@ function Footer() {
     <View style={styles.container}>
       <TouchableOpacity onPress={() => dispatch(Activity("Alls"))}>
         <Text style={Actives === "Alls" ? { color: "blue" } : ""}>All ({Alls?.length})</Text>
-        <View></View>
+        <View>
+          <Button title="Testing"/>
+        </View>
       </TouchableOpacity>
       <TouchableOpacity
         onPress={() => {
